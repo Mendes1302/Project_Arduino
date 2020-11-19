@@ -9,8 +9,8 @@
 #define tam 3
 #define DHTPIN 4
 #define DHTTYPE DHT11
-#define BOTtoken "1478659660:AAF-JKWIfED5_V-BQsLqW8i4bxKi7SCvsQU"
-#define CHAT_ID "816137990"
+#define BOTtoken "xxxxxxxxxx"
+#define CHAT_ID "xxxxxxxxxxxx"
 
 int array_LED[tam] = {18, 19, 21};
 
@@ -18,8 +18,8 @@ DHT dht(DHTPIN, DHTTYPE);
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
-char ssid[] = "Overload";
-char password[] = "1010FC216810";
+char ssid[] = "xxxxxxxx";
+char password[] = "xxxxxxxxxxx";
 int Bot_mtbs = 1000;
 long Bot_lasttime;
 String id, text;
