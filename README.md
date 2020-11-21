@@ -1,6 +1,6 @@
 # Project Arduino
 
- ## Alguns códigos de shield do arduino.
+ ## Alguns códigos relacionados as shield´s do arduino.
   - DHT11.
   - LCD.
   - PHOTORESISTOR.
